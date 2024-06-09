@@ -1,6 +1,6 @@
 // src/components/AdminPage.js
 import React, { useState } from 'react';
-import GoogleAnalytics from 'react-ga';
+import ReactGA from 'react-ga';
 
 const AdminPage = () => {
   const [username, setUsername] = useState('');
@@ -11,7 +11,9 @@ const AdminPage = () => {
     e.preventDefault();
     if (username === 'idosegev' && password === '311215') {
       setIsLoggedIn(true);
-      GoogleAnalytics.initialize('YOUR-GA-ID'); // הכנס את מזהה Google Analytics שלך
+      // יוזמת את Google Analytics עם מזהה המעקב שלך
+      ReactGA.initialize('YOUR-GA-ID'); // החלף במזהה ה-GA שלך
+      ReactGA.pageview(window.location.pathname + window.location.search);
     } else {
       alert('Invalid credentials');
     }

@@ -1,16 +1,16 @@
 // src/App.js
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import AdminPage from './components/AdminPage';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/admin" component={AdminPage} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/admin" element={<AdminPage />} />
+      </Routes>
     </Router>
   );
 }
