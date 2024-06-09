@@ -38,7 +38,6 @@ const HomePage = () => {
             <img src="https://upload.wikimedia.org/wikipedia/he/4/47/El_Al_Logo.svg" alt="אל-על" className="w-32 mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/he/thumb/0/05/Leumi_logo.svg/2560px-Leumi_logo.svg.png" alt="בנק לאומי" className="w-32 mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/EY_logo_2019.svg/2560px-EY_logo_2019.svg.png" alt="EY" className="w-32 mx-auto" />
-            <img src="https://www.hamichlol.org.il/w/images/5/56/%D7%94%D7%9E%D7%99%27%27%D7%9C.jpg" alt="המי"ל" className="w-32 mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/he/thumb/e/e7/Ben-Gurion_University_of_the_Negev_logo.svg/2560px-Ben-Gurion_University_of_the_Negev_logo.svg.png" alt="אוניברסיטת בן-גוריון" className="w-32 mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/he/thumb/2/29/Reichman_University_Logo.svg/2560px-Reichman_University_Logo.svg.png" alt="רייכמן" className="w-32 mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kiryat_ono.svg/2560px-Kiryat_ono.svg.png" alt="עיריית קרית אונו" className="w-32 mx-auto" />
